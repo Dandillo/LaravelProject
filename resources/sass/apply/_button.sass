@@ -1,0 +1,29 @@
+.btn-save
+    @apply w-40 border-progress border-2 px-6 text-progress py-4 text-center transition ease-in-out duration-150
+    &:hover
+        @apply bg-progress text-white
+    &:disabled
+        @apply opacity-25
+.btn-delete
+    @apply px-4 py-2 border-2 border-red-500 text-red-500 text-xs font-bold transition ease-in-out duration-150
+    &:hover
+        @apply bg-red-100
+    &:disabled
+        @apply opacity-25
+.btn-edit
+    @apply px-4 py-2 border-2 cursor-pointer border-blue-500 text-blue-500 text-xs font-bold transition ease-in-out duration-150
+    &:hover
+        @apply bg-blue-100
+    &:disabled
+        @apply opacity-25
+.btn-success
+    @apply px-4 py-2 border-2 cursor-pointer border-green-500 text-green-500 text-xs font-bold transition ease-in-out duration-150
+    &:hover
+        @apply bg-green-100
+    &:disabled
+        @apply opacity-25
+
+.btn
+    @apply px-4 py-2 border-2 cursor-pointer border-accent-blue text-accent-blue text-xs font-bold transition-all ease-in-out duration-300
+    &:hover
+        @apply bg-dropdown-blue
